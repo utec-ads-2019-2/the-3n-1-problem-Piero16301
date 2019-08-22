@@ -26,12 +26,22 @@ int main(){
         int maximo = 0;
         results.push_back(num_1);
         results.push_back(num_2);
-        while (num_1 <= num_2) {
-            int temporal = Lluvia(num_1);
-            if (temporal > maximo) {
-                maximo = temporal;
+        if (num_1 < num_2) {
+            while (num_1 <= num_2) {
+                int temporal = Lluvia(num_1);
+                if (temporal > maximo) {
+                    maximo = temporal;
+                }
+                num_1++;
             }
-            num_1++;
+        } else {
+            while (num_1 >= num_2) {
+                int temporal = Lluvia(num_1);
+                if (temporal > maximo) {
+                    maximo = temporal;
+                }
+                num_1--;
+            }
         }
         results.push_back(maximo);
     }
