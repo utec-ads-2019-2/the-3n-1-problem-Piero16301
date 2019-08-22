@@ -1,0 +1,3 @@
+C:/Users/piero/Downloads/the-3n-1-problem-Piero16301/Codigo/cmake-build-debug/CMakeFiles/Codigo.dir
+C:/Users/piero/Downloads/the-3n-1-problem-Piero16301/Codigo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/piero/Downloads/the-3n-1-problem-Piero16301/Codigo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
